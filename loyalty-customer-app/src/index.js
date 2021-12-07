@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Registration from "./registration";
+import Registration from "./Registration";
+import RegistrationSocial from "./RegistrationSocial";
 
 ReactDOM.render(
   <React.StrictMode>
