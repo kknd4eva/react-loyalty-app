@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+body {
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    justify-self: center;
+    justify-content: center;
+}
+
+.card {
+    border: none;
+    padding: 20px;
+    background-color: #ff0099;
+    color: #fff;
+    justify-self: center;
+}
+
+.form-input {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-input i {
+    position: absolute;
+    font-size: 18px;
+    top: 15px;
+    left: 10px;
+}
+
+.form-control {
+    height: 50px;
+    background-color: #f1f2f2;
+    text-indent: 24px;
+    font-size: 20px;
+}
+
+.form-control:focus {
+    background-color: #f1f2f2;
+    box-shadow: none;
+    color: #020202;
+    border-color: #4f63e7;
+}
+
+.form-check-label {
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.height {
+    height: 100vh;
+}
+
+.signup {
+    margin-top: 10px;
+    height: 50px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 30%;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #ff0099;
+    color: #ffffff;
+}
+
+.social:hover {
+    background-color: #f05b72;
+    border-color: #ffffff;
+}
