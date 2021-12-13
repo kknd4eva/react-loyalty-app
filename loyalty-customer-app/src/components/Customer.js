@@ -1,5 +1,7 @@
 import React from 'react';
 
-export default function Customer() {
-    return <h2>The Customer Page</h2>;
+const Customer = function() {
+    return <h4>Well, this is <i>obviously</i> the customer page.</h4>
 }
+
+export default Customer;
