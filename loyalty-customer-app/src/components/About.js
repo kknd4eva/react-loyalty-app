@@ -1,5 +1,9 @@
 import React from 'react';
 
-export default function About() {
-    return <h2>About Page - this app is being built by the awesome react team!</h2>;
+class About extends React.Component {
+    render() {
+        return <h4>Awesome Loyalty App! Version <i>{this.props.version}</i></h4>
+    }
 }
+
+export default About;
