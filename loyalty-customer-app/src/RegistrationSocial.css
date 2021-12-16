@@ -1,27 +1,28 @@
 .flexbox-container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .height {
-    height: 100vh;
+  height: 100vh;
 }
 
 .social {
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid rgb(10, 10, 10);
-    border-radius: 30%;
-    margin-right: 10px;
-    cursor: pointer;
-    background-color: #ff0099;
-    color: #ffffff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(10, 10, 10);
+  border-radius: 30%;
+  margin-right: 1px;
+  cursor: pointer;
+  background-color: #ff0099;
+  color: #ffffff;
 }
 
 .social:hover {
-    background-color: #f05b72;
-    border-color: #ffffff;
+  background-color: #f05b72;
+  border-color: #ffffff;
 }
