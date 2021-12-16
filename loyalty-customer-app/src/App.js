@@ -1,11 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React from 'react';
 import Customer from '../src/components/Customer';
 import About from '../src/components/About'
 import Navigation from '../src/components/Navigation'
-
 
 function App() {
   return (
