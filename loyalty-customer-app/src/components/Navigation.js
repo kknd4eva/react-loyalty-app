@@ -1,21 +1,33 @@
 import React from 'react';
+import './Navigation.css'
 import { Nav, NavItem} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import { FaIdCard, FaInfoCircle } from "react-icons/fa";
+import { FaGift, FaBarcode, FaIdCard, FaInfoCircle } from "react-icons/fa";
+import { useSpring, animated, state } from 'react-spring'
+
 
 
 /* This array will be mapped onto our nav elements */
 const navTabs = [{
-    route: "/about",
-    icon: <FaInfoCircle />,
-    label: "About"
-},{
     route: "/customer",
-    icon: <FaIdCard />,
-    label: "Customer"      
+    icon: <FaIdCard size={30} style={{ fill: 'rgb(141,198,63)' }}/>,
+    label: "Account"      
+},{
+    route: "/rewards",
+    icon: <FaGift size={30} style={{ fill: 'rgb(141,198,63 '}} />,
+    label: "Rewards"
+},{
+    route: "/cards",
+    icon: <FaBarcode size={30} style={{ fill: 'rgb(141,198,63 '}} />,
+    label: "Cards"
+},{
+    route: "/about",
+    icon: <FaInfoCircle size={30} style={{ fill: 'rgb(141,198,63)' }} />,
+    label: "About"
 }]
 
 const Navigation = (props) => {
+
 	return (
         <div>
             <nav className="navbar fixed-bottom navbar-light" role="navigation">
@@ -29,7 +41,8 @@ const Navigation = (props) => {
                                 <NavItem key={`tab-${index}`}> 
                                     <NavLink to={tab.route} className="nav-link" activeClassName="active">
                                         <div className="row d-flex flex-column justify-content-center align-items-center">
-                                            <div>{tab.icon} {tab.label}</div>
+                                            <div>{tab.icon}</div>
+                                            <div>{tab.label}</div>
                                         </div>
                                     </NavLink>
                                 </NavItem>
