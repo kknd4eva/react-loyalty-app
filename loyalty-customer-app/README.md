@@ -16,7 +16,8 @@ our own page/components without continually re-writing or updating the App.js / 
 ```
 <Route path="/yourpage" element={<YourClassComponentThingy />} />
 ```
-3. The above will let you navigate to http://localhost:3000/yourpage and render YourClassComponentThingy. Basic to start with, but we can build on it as we learn more? 
+3. The above will let you navigate to http://localhost:3000/yourpage and render YourClassComponentThingy. Basic to start with, but we can build on it as we learn more? I currently have <Navigation /> sitting in App.js just until I get it right, then it will go 
+as well, and become a component anyone can add to their own components (except the sign-in screen)
 
 ##### Icons
 I've added the following package to gain access to font awesome icons in 
