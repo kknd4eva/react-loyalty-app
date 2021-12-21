@@ -13,6 +13,7 @@ const Translate = (props) => {
     config: {
       mass: 6,
       tension: 170,
+      velocity: 0.01,
     },
   });
 

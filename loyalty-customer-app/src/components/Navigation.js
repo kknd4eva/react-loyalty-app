@@ -2,7 +2,6 @@ import React from 'react';
 import './Navigation.css'
 import { Nav, NavItem} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import { useSpring, animated } from 'react-spring';
 import { FaGift, FaBarcode, FaIdCard, FaInfoCircle } from "react-icons/fa";
 import Translate from '../components/Translate';
 
