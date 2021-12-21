@@ -5,6 +5,14 @@
 I had this occur when I tried to launch the app via `npm start`. I ran `npm i` which basically installs all the dependencies for the project
 from the package.json file. Afterwards, I could launch the app fine. 
 
+#####
+Notes: 
+presentational, which are just arrow notation components - they don't have state
+
+functional, which are defined using 'function' - they have state e.g. 'this', but very little behaviour/logic
+
+class - they have state and behaviour
+
 ### Look and feel
 
 ##### Page setup for everyone to work on their elements
@@ -41,3 +49,9 @@ Some next steps:
 
 Pro tip:
 Try "amplify add api" to create a backend API and then "amplify publish" to deploy everything
+
+##### Local setup
+Set up environment variables: 
+```
+PS C:\Users\JMatson\source\repos\POC-React-Loyalty-Customer-App\loyalty-customer-app> ($env:REACT_APP_LOYALTY_URL = "local") -and (npm start)
+```
