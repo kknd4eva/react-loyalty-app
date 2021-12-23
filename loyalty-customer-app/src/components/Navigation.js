@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navigation.css'
-import { Nav, NavItem} from 'reactstrap';
+import { Nav, NavItem, Container} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import { FaGift, FaBarcode, FaIdCard, FaInfoCircle } from "react-icons/fa";
 import Translate from '../components/Translate';
